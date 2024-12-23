@@ -26,10 +26,16 @@ let data = null
 // Objects
 
 const person = {
-    "firstName" : "Eyimofe",
-    "lastName" : "Pinnick",
-    "age" : 22,
-    "hobbies" : ["reading", "coding", "exercising"]
+    firstName : "Eyimofe",
+    lastName : "Pinnick",
+    age : 22,
+    hobbies : ["reading", "coding", "exercising"]
 }
 
-console.log(person["hobbies"])
+console.log(person.hobbies)
+
+console.log(person["age"])
+
+
+// Arrays
+const oddNumbers = [1, 3, 5, 7, 9, 11]
