@@ -19,12 +19,13 @@ let y = 5
 // Comparison OPs
 // console.log(x == y)
 // console.log(x != y)
-// console.log(x === y) // Check value and datatype
+// console.log(x === y) // Check value and datatype - Best for checking equality
 // console.log(x !== y)
 // console.log(x > y)
 // console.log(x <= y)
 
-
+10 == "10"
+10 === "10"
 
 // Logical OPs (And - OR)
 x > 8 && 8 > y  // And
